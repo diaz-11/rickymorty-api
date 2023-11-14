@@ -1,0 +1,17 @@
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  color: white;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.tex {
+  top: 0;
+}
+body {
+  background: rgb(32, 35, 41);
+}
