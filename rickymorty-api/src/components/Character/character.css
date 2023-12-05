@@ -28,7 +28,7 @@ header {
 }
 .celdita {
   background-color: #5f5e5e;
-  width: 100%;
+  width: 50%;
   height: 175px;
   padding-left: 1em;
   border-top-right-radius: 5px;
