@@ -27,9 +27,11 @@ export function Character() {
           ) => (
             <li key={index} className="item">
               <img src={item.image} />
+              <div className="t"></div>
               <div className="tex">
                 <h3>{item.name}</h3>
                 <p>{item.status}</p>
+                <div className="img"></div>
                 <div className="celda"></div>
               </div>
             </li>
