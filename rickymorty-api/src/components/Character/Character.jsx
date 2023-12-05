@@ -21,7 +21,7 @@ export function Character() {
     <>
       <header>
         <div className="API"></div>
-        <h1>Rick and Morty API</h1>
+        <h1>The Rick and Morty API</h1>
       </header>
 
       <ul className="lista ">
@@ -32,12 +32,15 @@ export function Character() {
           ) => (
             <li key={index} className="item">
               <img src={item.image} />
+              
               <div className="t"></div>
               <div className="tex">
                 <h3>{item.name}</h3>
                 <p>{item.status}</p>
+                <div className="celdita"></div>
                 <div className="img"></div>
                 <div className="celda"></div>
+                
                 <div className=""></div>
               </div>
             </li>
