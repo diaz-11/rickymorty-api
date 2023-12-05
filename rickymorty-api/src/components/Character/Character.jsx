@@ -19,6 +19,11 @@ export function Character() {
     //parentesis
 
     <>
+      <header>
+        <div className="API"></div>
+        <h1>Rick and Morty API</h1>
+      </header>
+
       <ul className="lista ">
         {character.map(
           (
@@ -33,6 +38,7 @@ export function Character() {
                 <p>{item.status}</p>
                 <div className="img"></div>
                 <div className="celda"></div>
+                <div className=""></div>
               </div>
             </li>
           )
