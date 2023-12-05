@@ -32,15 +32,12 @@ export function Character() {
           ) => (
             <li key={index} className="item">
               <img src={item.image} />
-              
-              <div className="t"></div>
-              <div className="tex">
+              <div className="celdita">
                 <h3>{item.name}</h3>
                 <p>{item.status}</p>
-                <div className="celdita"></div>
                 <div className="img"></div>
                 <div className="celda"></div>
-                
+
                 <div className=""></div>
               </div>
             </li>

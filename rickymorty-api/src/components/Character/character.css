@@ -8,6 +8,7 @@
 .item {
   display: flex;
   flex-direction: row;
+  background-color: #5f5e5e;
 }
 .tex {
   top: 0;
@@ -27,10 +28,6 @@ header {
   color: rgb(15, 13, 13);
 }
 .celdita {
-  background-color: #5f5e5e;
-  width: 50%;
-  height: 175px;
-  padding-left: 1em;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
