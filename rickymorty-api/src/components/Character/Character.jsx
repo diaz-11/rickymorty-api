@@ -30,6 +30,7 @@ export function Character() {
               <div className="tex">
                 <h3>{item.name}</h3>
                 <p>{item.status}</p>
+                <div className="celda"></div>
               </div>
             </li>
           )

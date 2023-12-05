@@ -15,3 +15,11 @@
 body {
   background: rgb(32, 35, 41);
 }
+
+.celda {
+  border-top: rgb(32, 35, 41);
+  background-color: rgb(32, 35, 41);
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+}
